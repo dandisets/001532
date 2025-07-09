@@ -6,17 +6,20 @@
 about: []
 access:
 - schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard: []
+  measurementTechnique: []
+  numberOfBytes: 3606164177
+  numberOfFiles: 8
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: Two-photon calcium imaging of responses to drifting gratings and natural
   movies in the mouse visual cortex and Spatial transcriptomics data (2025). (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001532/draft
 contributor:
-- name: Arkhipov, Anton
-  schemaKey: Person
 - name: Garret, Marina
   schemaKey: Person
 - name: Groblewski, Peter
@@ -40,6 +43,7 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- {}
 dateCreated: '2025-07-08T21:14:30.064016+00:00'
 description: 'This dataset contains recordings of neural activity using two-photon
   calcium imaging from the mouse primary visual cortex (VISp). The mice had GCaMP8s
@@ -54,7 +58,8 @@ description: 'This dataset contains recordings of neural activity using two-phot
   1, 2, 4, 8 Hz). This dataset also includes the gene expression tables associated
   with subsets of neurons in the neural recording dataset. The gene expression was
   quantified using HCR (Hybridization Chain Reaction) method and multiple rounds of
-  multichannel lightsheet imaging. '
+  multichannel lightsheet imaging. Transcriptomic data in available in a Github repository:
+  https://github.com/omidzobeiri/CellxGene_tables_U01_130907_DS001532'
 ethicsApproval: []
 id: DANDI:001532/draft
 identifier: DANDI:001532
