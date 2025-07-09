@@ -20,11 +20,20 @@ citation: Two-photon calcium imaging of responses to drifting gratings and natur
   movies in the mouse visual cortex and Spatial transcriptomics data (2025). (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001532/draft
 contributor:
-- name: Garret, Marina
+- email: antona@alleninstitute.org
+  identifier: 0000-0003-1106-8310
+  name: Arkhipov, Anton
+  roleName:
+  - dcite:ContactPerson
+  - dcite:ProjectLeader
+  schemaKey: Person
+- identifier: 0000-0002-5271-2291
+  name: Garret, Marina
   schemaKey: Person
 - name: Groblewski, Peter
   schemaKey: Person
-- name: Zobeiri, Omid
+- identifier: 0000-0002-1813-1354
+  name: Zobeiri, Omid
   schemaKey: Person
 - name: Aloi, Macarena
   schemaKey: Person
@@ -36,6 +45,9 @@ contributor:
   schemaKey: Person
 - name: Campos, Jazmin
   schemaKey: Person
+- identifier: 0000-0002-5905-8202
+  name: Berry, Carson
+  schemaKey: Person
 - name: Davis, Matt
   schemaKey: Person
 - awardNumber: 1 U01 MH 130907-02
@@ -43,7 +55,6 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- {}
 dateCreated: '2025-07-08T21:14:30.064016+00:00'
 description: 'This dataset contains recordings of neural activity using two-photon
   calcium imaging from the mouse primary visual cortex (VISp). The mice had GCaMP8s
