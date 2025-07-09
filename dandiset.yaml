@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.10/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -11,9 +12,29 @@ assetsSummary:
   numberOfFiles: 0
   schemaKey: AssetsSummary
 citation: Two-photon calcium imaging of responses to drifting gratings and natural
-  movies in the mouse visual cortex and corresponding Spatial transcriptomics data
-  (2025). (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001532/draft
+  movies in the mouse visual cortex and Spatial transcriptomics data (2025). (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001532/draft
 contributor:
+- name: Arkhipov, Anton
+  schemaKey: Person
+- name: Garret, Marina
+  schemaKey: Person
+- name: Groblewski, Peter
+  schemaKey: Person
+- name: Zobeiri, Omid
+  schemaKey: Person
+- name: Aloi, Macarena
+  schemaKey: Person
+- name: Caldejon, Shiella
+  schemaKey: Person
+- name: Seid, Sam
+  schemaKey: Person
+- name: Willford, Ali
+  schemaKey: Person
+- name: Campos, Jazmin
+  schemaKey: Person
+- name: Davis, Matt
+  schemaKey: Person
 - awardNumber: 1 U01 MH 130907-02
   name: National Institutes of Health (NIH)
   roleName:
@@ -21,24 +42,39 @@ contributor:
   schemaKey: Organization
 dateCreated: '2025-07-08T21:14:30.064016+00:00'
 description: 'This dataset contains recordings of neural activity using two-photon
-  calcium imaging from the mouse primary visual cortex (VISp). The mice had GCaMP6f
-  expressed in their inhibitory interneurons (Gad2). The experiments were conducted
+  calcium imaging from the mouse primary visual cortex (VISp). The mice had GCaMP8s
+  expressed in their inhibitory interneurons (Slc32a1). The experiments were conducted
   using the same data collection pipeline as the Allen Brain Observatory (de Vries
   et al., Nature Neurosci., 2020), with an improved microscopy system that uses multi-plane
-  imaging. A camera-based eye tracking system and running wheel were used to track
-  pupil dynamics and locomotion. The recordings were performed during two different
-  visual stimulus sets: 1. STAGE_0: Natural movie clips. 2. STAGE_1: Drifting gratings
-  presented as full-field stimuli (approximately 120x90 degrees of visual space).
-  These gratings were presented in 8 directions, at 5 contrasts (5%, 10%, 20%, 40%,
-  80%), as well as 8 directions, and 5 temporal frequencies (0.5, 1, 2, 4, 8 Hz).'
+  imaging. A running wheel was used to track locomotion. The recordings were performed
+  during two different visual stimulus sets: 1. STAGE_0: Natural movie clips. 2. STAGE_1:
+  Drifting gratings presented as full-field stimuli (approximately 120x90 degrees
+  of visual space). These gratings were presented in 8 directions, at 5 contrasts
+  (5%, 10%, 20%, 40%, 80%), as well as 8 directions, and 5 temporal frequencies (0.5,
+  1, 2, 4, 8 Hz). This dataset also includes the gene expression tables associated
+  with subsets of neurons in the neural recording dataset. The gene expression was
+  quantified using HCR (Hybridization Chain Reaction) method and multiple rounds of
+  multichannel lightsheet imaging. '
+ethicsApproval: []
 id: DANDI:001532/draft
 identifier: DANDI:001532
+keywords:
+- mouse
+- 2-photon calcium imaging
+- spatial transcriptomics
+- HCR
+- Visual cortex
+- Inhibitory
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001532/versions/draft/assets/
 name: Two-photon calcium imaging of responses to drifting gratings and natural movies
-  in the mouse visual cortex and corresponding Spatial transcriptomics data
+  in the mouse visual cortex and Spatial transcriptomics data
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
 url: https://dandiarchive.org/dandiset/001532/draft
 version: draft
+wasGeneratedBy: []
